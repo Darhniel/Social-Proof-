@@ -1,0 +1,53 @@
+@media screen and (min-width: 1000px) {
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+    main {
+        width: 90vw;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 40vw 50vw;
+        align-items: center;
+    }
+    section.main-text {
+        text-align: left;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    div.rating-items {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 37vw;
+    }
+    div.one {
+        margin-left: 3vw;
+    }
+    div.two {
+        margin-left: 9vw;
+    }
+    div.three {
+        margin-left: 13vw;
+    }
+    div.star-icons {
+        margin: 0;
+    }
+    section.review-section {
+        display: grid;
+        grid-template-columns: 31vw 31vw 28vw;
+        margin-bottom: 4rem;
+    }
+    div.cards {
+        width: 28vw;
+    }
+    div.Colton {
+        margin-bottom: 2rem;
+    }
+    div.Irene {
+        margin-top: 1rem;
+    }
+    div.Anne {
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+}
